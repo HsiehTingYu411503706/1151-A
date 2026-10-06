@@ -1,8 +1,3 @@
-# 讀取輸入的實數 C
-c = float(input())
-
-# 計算華氏溫度 F
-f = 9 / 5 * c + 32
-
-# 輸出結果，格式化為保留一位小數
-print(f"{f:.1f}")
+celsius = float(input())
+fahrenheit = (9 / 5) * celsius + 32
+print(f"{fahrenheit:.1f}")
